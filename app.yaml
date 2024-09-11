@@ -1,0 +1,8 @@
+
+runtime: python310
+
+entrypoint: python trading_app.py
+
+handlers:
+  - url: /.*
+    script: auto
